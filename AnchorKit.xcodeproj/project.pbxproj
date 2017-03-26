@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9669ED01E87ED3500080E16 /* CompoundAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9669ECF1E87ED3500080E16 /* CompoundAnchor.swift */; };
 		D9CD4BD51E878EB6006DA8D8 /* AnchorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CD4BCB1E878EB6006DA8D8 /* AnchorKit.framework */; };
 		D9CD4BDA1E878EB6006DA8D8 /* AnchorKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD4BD91E878EB6006DA8D8 /* AnchorKitTests.swift */; };
 		D9CD4BDC1E878EB6006DA8D8 /* AnchorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CD4BCE1E878EB6006DA8D8 /* AnchorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9CD4BE71E878ED5006DA8D8 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD4BE61E878ED5006DA8D8 /* Anchor.swift */; };
+		D9CD4BE91E8795C8006DA8D8 /* AnchorKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD4BE81E8795C8006DA8D8 /* AnchorKit.swift */; };
+		D9CD4BEB1E8795E3006DA8D8 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD4BEA1E8795E3006DA8D8 /* LayoutProxy.swift */; };
+		D9CD4BED1E8795F5006DA8D8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD4BEC1E8795F5006DA8D8 /* Constant.swift */; };
+		D9CD4BEF1E87969B006DA8D8 /* PriorityDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CD4BEE1E87969B006DA8D8 /* PriorityDescriptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9669ECE1E87ECDD00080E16 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
+		D9669ECF1E87ED3500080E16 /* CompoundAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompoundAnchor.swift; sourceTree = "<group>"; };
 		D9CD4BCB1E878EB6006DA8D8 /* AnchorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnchorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CD4BCE1E878EB6006DA8D8 /* AnchorKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnchorKit.h; sourceTree = "<group>"; };
 		D9CD4BCF1E878EB6006DA8D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9CD4BD41E878EB6006DA8D8 /* AnchorKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnchorKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CD4BD91E878EB6006DA8D8 /* AnchorKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorKitTests.swift; sourceTree = "<group>"; };
 		D9CD4BDB1E878EB6006DA8D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9CD4BE61E878ED5006DA8D8 /* Anchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
+		D9CD4BE81E8795C8006DA8D8 /* AnchorKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorKit.swift; sourceTree = "<group>"; };
+		D9CD4BEA1E8795E3006DA8D8 /* LayoutProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutProxy.swift; sourceTree = "<group>"; };
+		D9CD4BEC1E8795F5006DA8D8 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		D9CD4BEE1E87969B006DA8D8 /* PriorityDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityDescriptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +66,7 @@
 		D9CD4BC11E878EB6006DA8D8 = {
 			isa = PBXGroup;
 			children = (
+				D9669ECE1E87ECDD00080E16 /* Playground.playground */,
 				D9CD4BCD1E878EB6006DA8D8 /* AnchorKit */,
 				D9CD4BD81E878EB6006DA8D8 /* AnchorKitTests */,
 				D9CD4BCC1E878EB6006DA8D8 /* Products */,
@@ -71,6 +85,7 @@
 		D9CD4BCD1E878EB6006DA8D8 /* AnchorKit */ = {
 			isa = PBXGroup;
 			children = (
+				D9CD4BE51E878EC0006DA8D8 /* Sources */,
 				D9CD4BCE1E878EB6006DA8D8 /* AnchorKit.h */,
 				D9CD4BCF1E878EB6006DA8D8 /* Info.plist */,
 			);
@@ -84,6 +99,19 @@
 				D9CD4BDB1E878EB6006DA8D8 /* Info.plist */,
 			);
 			path = AnchorKitTests;
+			sourceTree = "<group>";
+		};
+		D9CD4BE51E878EC0006DA8D8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D9CD4BE61E878ED5006DA8D8 /* Anchor.swift */,
+				D9669ECF1E87ED3500080E16 /* CompoundAnchor.swift */,
+				D9CD4BEC1E8795F5006DA8D8 /* Constant.swift */,
+				D9CD4BEE1E87969B006DA8D8 /* PriorityDescriptor.swift */,
+				D9CD4BEA1E8795E3006DA8D8 /* LayoutProxy.swift */,
+				D9CD4BE81E8795C8006DA8D8 /* AnchorKit.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +177,7 @@
 					D9CD4BCA1E878EB6006DA8D8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = B2TD54U4MA;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					D9CD4BD31E878EB6006DA8D8 = {
@@ -198,6 +227,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9CD4BE71E878ED5006DA8D8 /* Anchor.swift in Sources */,
+				D9CD4BEB1E8795E3006DA8D8 /* LayoutProxy.swift in Sources */,
+				D9CD4BE91E8795C8006DA8D8 /* AnchorKit.swift in Sources */,
+				D9CD4BED1E8795F5006DA8D8 /* Constant.swift in Sources */,
+				D9CD4BEF1E87969B006DA8D8 /* PriorityDescriptor.swift in Sources */,
+				D9669ED01E87ED3500080E16 /* CompoundAnchor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +357,7 @@
 		D9CD4BE01E878EB6006DA8D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = B2TD54U4MA;
@@ -334,6 +370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.sora0077.AnchorKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +378,7 @@
 		D9CD4BE11E878EB6006DA8D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = B2TD54U4MA;
@@ -360,6 +398,7 @@
 		D9CD4BE31E878EB6006DA8D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B2TD54U4MA;
 				INFOPLIST_FILE = AnchorKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +411,7 @@
 		D9CD4BE41E878EB6006DA8D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = B2TD54U4MA;
 				INFOPLIST_FILE = AnchorKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +440,7 @@
 				D9CD4BE11E878EB6006DA8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9CD4BE21E878EB6006DA8D8 /* Build configuration list for PBXNativeTarget "AnchorKitTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +449,7 @@
 				D9CD4BE41E878EB6006DA8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
